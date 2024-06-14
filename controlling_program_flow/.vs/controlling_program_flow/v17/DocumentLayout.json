@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c\u002B\u002B\\controlling_program_flow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E10FB63-D4A3-495F-8D0B-FF94C857E8D5}|controlling_program_flow.vcxproj|D:\\c\u002B\u002B\\controlling_program_flow\\controlling_program_flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3E10FB63-D4A3-495F-8D0B-FF94C857E8D5}|controlling_program_flow.vcxproj|solutionrelative:controlling_program_flow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "controlling_program_flow.cpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\controlling_program_flow\\controlling_program_flow.cpp",
+              "RelativeDocumentMoniker": "controlling_program_flow.cpp",
+              "ToolTip": "D:\\c\u002B\u002B\\controlling_program_flow\\controlling_program_flow.cpp",
+              "RelativeToolTip": "controlling_program_flow.cpp",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAiwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T21:29:37.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
