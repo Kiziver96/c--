@@ -1,10 +1,11 @@
+
 #include <iostream>
 
 class I_Printable {
     friend std::ostream& operator<<(std::ostream& os, const I_Printable& obj);
 public:
     virtual void print(std::ostream& os) const = 0;
-    
+    virtual ~I_Printable() = default;
 };
 
 std::ostream& operator<<(std::ostream& os, const I_Printable& obj) {
@@ -58,12 +59,7 @@ public:
     virtual ~Trust() {  }
 };
 
-class Dog : public I_Printable {
-public:
-    virtual void print(std::ostream& os) const override {
-        os << "asd";
-    }
-};
+
 
 void print(const I_Printable& obj) {
     std::cout << obj << std::endl;
@@ -72,10 +68,8 @@ void print(const I_Printable& obj) {
 
 int main() {
 
-    Dog* dog = new Dog();
-    std::cout << *dog << std::endl;
+    
 
-    print(*dog);
 
     Account* p1 = new Account();
     std::cout << *p1 << std::endl;
@@ -84,8 +78,8 @@ int main() {
     std::cout << *p2 << std::endl;
 
 
+
     delete p1;
     delete p2;
-    delete dog;
     return 0;
 }
